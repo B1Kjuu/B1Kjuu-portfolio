@@ -1,76 +1,88 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# My Portfolio Website
 
-<br/>
+A modern, responsive portfolio website built with React.js to showcase my projects, skills, and experience.
 
-<center>
+## 🚀 Built With
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+This project was built using these technologies:
 
-</center>
+- **React.js** - Frontend framework
+- **React Bootstrap** - UI components
+- **React Router** - Navigation
+- **React Icons** - Icon library
+- **Typewriter Effect** - Animated text
+- **Particles.js** - Interactive background
+- **CSS3** - Styling
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## ✨ Features
 
-## TL;DR
+- 📖 **Multi-Page Layout** - Organized sections for Home, About, Projects, and Resume
+- 🎨 **Modern UI/UX** - Clean design with smooth animations
+- 📱 **Fully Responsive** - Works seamlessly on all devices
+- 🌙 **Interactive Elements** - Particle effects and dynamic components
+- 🔥 **GitHub Integration** - Displays GitHub activity calendar
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## 🛠️ Installation and Setup
 
-## Built With
+### Prerequisites
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+- Node.js (v14 or higher)
+- npm or yarn
 
-This project was built using these technologies.
+### Installation Steps
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+1. Clone the repository
 
-## Features
+```bash
+git clone https://github.com/yourusername/Portfolio.git
+cd Portfolio
+```
 
-**📖 Multi-Page Layout**
+2. Install dependencies
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+```bash
+npm install
+```
 
-**📱 Fully Responsive**
+3. Start the development server
 
-## Getting Started
+```bash
+npm start
+```
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+The app will run at [http://localhost:3000](http://localhost:3000)
 
-## 🛠 Installation and Setup Instructions
+### Build for Production
 
-1. Installation: `npm install`
+```bash
+npm run build
+```
 
-2. In the project directory, you can run: `npm start`
+## 📂 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+```
+src/
+├── components/
+│   ├── Home/          # Home page components
+│   ├── About/         # About section components
+│   ├── Projects/      # Projects showcase
+│   ├── Resume/        # Resume section
+│   ├── Navbar.js      # Navigation bar
+│   └── Footer.js      # Footer component
+├── Assets/            # Images and icons
+└── App.js            # Main application component
+```
 
-## Usage Instructions
+## 🎨 Customization
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+To personalize this portfolio:
 
-### Show your support
+1. Update personal information in `src/components/Home/` and `src/components/About/`
+2. Add your projects in `src/components/Projects/`
+3. Replace social media links in `Footer.js` and `Home.js`
+4. Update images in `src/Assets/`
+5. Modify colors and styles in CSS files
 
-Give a ⭐ if you like this website!
+## 📝 License
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+This project is open source and available under the MIT License.

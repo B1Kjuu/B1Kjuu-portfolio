@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,37 +13,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a Frontend Developer and Computer Engineering student who loves
+              creating engaging user experiences and bringing ideas to life through code.
+              I'm passionate about learning new technologies and continuously improving my skills.
               <br />
               <br />
-              I’m proficient in
+              I'm proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, TypeScript, Python, HTML, CSS, and C++/C#{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I work with modern tools and frameworks.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Development, AI, and Mobile Apps{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              — always eager to explore emerging technologies.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              I love building projects with
+              <b className="purple"> Node.js, React.js, </b>
+              and styling with{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">Tailwind CSS</b> and{" "}
+                <b className="purple">Material UI</b>.
               </i>
             </p>
           </Col>
