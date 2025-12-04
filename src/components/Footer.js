@@ -19,7 +19,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Jubikk"
+                href="https://github.com/B1Kjuu"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

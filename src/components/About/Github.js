@@ -49,7 +49,7 @@ function Github() {
       <div style={{ width: "100%", overflowX: "auto", padding: "0 12px" }}>
         <div style={{ maxWidth: 760, margin: "0 auto" }}>
           <GitHubCalendar
-            username="Jubikk"
+            username="B1Kjuu"
             blockSize={blockSize}
             blockMargin={blockMargin}
             color="#c084f5"
